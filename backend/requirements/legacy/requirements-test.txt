@@ -1,0 +1,23 @@
+# Core dependencies
+python-dotenv>=1.0.0
+
+# LLM and AI
+langchain>=1.0.7,<1.0.8
+langchain-core>=1.0.5,<2.0.0
+langchain-community>=0.4.1,<0.5.0
+langchain-google-genai>=3.0.3,<4.0.0
+langchain-ollama>=1.0.0,<2.0.0
+langgraph>=1.0.2,<1.1.0
+
+# Google Gemini
+google-generativeai>=0.3.0
+
+# API clients
+requests>=2.31.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Utilities
+typing-extensions>=4.0.0
+pydantic>=2.0.0
