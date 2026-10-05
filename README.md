@@ -153,31 +153,4 @@ backend/.venv/Scripts/python.exe -m tests.test_routing
 Some backend checks call external services or create reports. Review a test
 before running it against existing data.
 
-## Security and privacy
 
-Do not commit secrets or real user reports. If a secret has ever been
-committed or shared publicly, revoke and replace it immediately. This project
-is a development application and should receive a security review before
-handling real personal, location, or incident data.
-
-## Before the first GitHub push
-
-If this is being published as one repository, initialize Git from the
-repository root and make sure the old nested `frontend/.git` metadata is not
-included. Review the staged file list before pushing:
-
-```powershell
-git status --short
-git add .
-git status --short
-```
-
-Confirm that no `.env`, database, log, `node_modules`, `.venv`, or `.next`
-files are staged. If a secret was ever committed in Git history, removing the
-working-tree file is not enough; rotate the secret and rewrite the history
-before making the repository public.
-
-## License
-
-No license has been selected yet. Add a `LICENSE` file before publishing if
-you want others to use, modify, or redistribute this project.
