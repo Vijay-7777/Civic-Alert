@@ -1,6 +1,6 @@
 # CrimeLens
 
-CrimeLens is a civic safety platform for submitting and tracking community
+Civic Alert is a civic safety platform for submitting and tracking community
 reports. It combines a Next.js web application with a FastAPI assistant API,
 SQLite storage, optional AI assistance, and map-based location features.
 
